@@ -44,7 +44,7 @@ public class DefaultCircuitBreaker implements CircuitBreaker {
    * Constructor to create an instance of Circuit Breaker.
    *
    * @param timeout          Timeout for the API request. Not necessary for this simple example
-   * @param failureThreshold Number of failures we receive from the depended service before changing
+   * @param failureThreshold Number of failures we receive from the dependent service before changing
    *                         state to 'OPEN'
    * @param retryTimePeriod  Time period after which a new request is made to remote service for
    *                         status check.
